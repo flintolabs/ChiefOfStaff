@@ -15,6 +15,7 @@ Mid-conversation, when the CoS notices a gap between what the person says and wh
 - Small details that would not change a skill map or action plan
 - Passing mentions the person has not emphasized
 - Things already implied in the files
+- A named project, venture, or initiative not yet in `context/initiatives/` — that is handled by initiative detection, not this skill
 
 The test: would this update meaningfully change what the CoS says in a future skill map, action plan, or coaching session?
 

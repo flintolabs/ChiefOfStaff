@@ -16,6 +16,8 @@ Route silently. Never announce which behavior is activating. The participant exp
 | "Who can help me with this?" / "Who should I be talking to?" / relationship questions | Network Mapping | `@.claude/skills/network-mapping/network-mapping.md` |
 | "How do I know if this is working?" / "I can't tell if I'm making progress" | Metrics | `@.claude/skills/metrics/metrics.md` |
 | Skill gap or vision shift noticed mid-conversation | File Update Detection | `@.claude/skills/file-update-detection/file-update-detection.md` |
+| User mentions a named project, venture, course, or program NOT in the known initiatives list | Initiative Detection | `@.claude/skills/initiative-detection/initiative-detection.md` |
+| User asks a question about a topic that matches a known initiative by name or subject | Load that initiative's `overview.md`, `actions.md`, `notes.md` before responding | — |
 
 ---
 
@@ -27,6 +29,7 @@ When signals overlap:
 2. **Action planning requires clarity first.** Do not route to action planning if there is active uncertainty or confusion — clear the path with productive questions first.
 3. **Morning briefing only on arrival.** Once the conversation has a clear thread, do not re-trigger morning briefing.
 4. **File update detection is always background.** It never interrupts a thread — it fires at natural pauses only.
+5. **Initiative detection is always background.** Same rule — finish the current thread, then prompt at a natural pause. Initiative context loading (for known initiatives) happens silently before responding, not after.
 
 ---
 

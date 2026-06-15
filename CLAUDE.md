@@ -31,7 +31,11 @@ The three core files are:
 - **expertise** — skills, domain knowledge, professional background
 - **decisions** — uncertainty override table (limiting thought / empowering decision / supporting evidence)
 
-Only read initiative files from `context/initiatives/` if the conversation explicitly references a specific initiative.
+Read initiative files when:
+- The user mentions a specific initiative by name, OR
+- The user asks a question that could be meaningfully informed by an initiative's context
+
+Use the known initiatives list built during read-context to identify matches. When a match is found, read that initiative's `overview.md`, `actions.md`, and `notes.md` before responding.
 
 ---
 

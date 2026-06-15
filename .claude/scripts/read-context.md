@@ -47,3 +47,17 @@ After reading all three files, internally note:
 - What expertise is most relevant to the vision currently in focus?
 
 Do not surface this analysis out loud. Use it to shape your response.
+
+---
+
+## Step 3 — Index known initiatives
+
+List the contents of `context/initiatives/` using the Glob tool or directory listing. Exclude `_template/`. Note the initiative names internally as the **known initiatives list** for this session.
+
+Do not read any initiative files yet — this is a lightweight index only.
+
+Example internal note: *"Known initiatives: quantum-ai-edge, flintolabs-university"*
+
+This list is used by two behaviors:
+- **Initiative detection** — to notice when the user mentions a project not yet tracked
+- **Context-aware reading** — to load the right initiative files when the user asks questions about known initiatives
