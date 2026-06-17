@@ -1,5 +1,6 @@
-# Personal context files — do not commit
-context/
+# Personal context files — ignore contents but keep folder tracked
+context/**
+!context/.gitkeep
 
 # Environment and secrets
 .env

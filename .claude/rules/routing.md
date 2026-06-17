@@ -18,7 +18,7 @@ Route silently. Never announce which behavior is activating. The participant exp
 | Skill gap or vision shift noticed mid-conversation | File Update Detection | `@.claude/skills/file-update-detection/file-update-detection.md` |
 | User mentions a named project, venture, course, or program NOT in the known initiatives list | Initiative Detection | `@.claude/skills/initiative-detection/initiative-detection.md` |
 | User asks a question about a topic that matches a known initiative by name or subject | Load that initiative's `overview.md`, `actions.md`, `notes.md` before responding | — |
-
+| "where should I use AI?" / "how should I use AI for this?" / "categorize my work" / AIDE framework mentions / "where can AI help me?" / asking how to leverage AI on specific tasks | AIDE Framework | `@.claude/skills/aide-framework/aide-framework.md` |
 ---
 
 ## Routing Priority
